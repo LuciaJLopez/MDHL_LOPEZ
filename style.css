@@ -93,10 +93,13 @@ section div{
 .fecha{
     font-style: oblique;
     font-weight: bold;
+    padding: 1px;
+    
 }
 
 p{
     text-indent: 20px;
+    margin-bottom: 20px;
 }
 
 h3{
