@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'comic sans MS'; font-weight: lighter;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 80vw;
+    height: 20vh;
+    margin: 60px 10%;
+    background-image: url(./assets/design1_image1.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    padding: .5rem;
+    
+}
+h1{
+    font-style: oblique;
+    margin: 60px 10%;
+    height:0px;
+    display:block;
+
+}
+
+
+nav a{
+    display: inline-block;
+    color:white;
+    background-color:#0948bd;
+    width: 6rem;
+    height: 2rem;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border:solid black 1.75px;
+    margin: 2.5px;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0,.3);
+    position:relative;
+    bottom: 205px;
+    left: 65%;
+    
+
+}
+
+a:hover{
+    color: black;
+    background-color: #0948bd;
+}
+
+a[href="#"]{
+    background-color: #58b818;
+}
+
+    
+h2{
+    margin: 60px 10%;
+    border: solid black 1px;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    position: relative;
+    bottom: 157px;
+
+}
+
+section{
+    display: inline-block;
+    margin: 60px 10%;
+    width: 80vw;
+    height: 50vh;
+
+}
+section img{
+    width: 20%;
+    float: left;
+    position: relative;
+    bottom: 250px;
+}
+
+section div{
+    display: inline-block;
+    width: 70%;
+    margin: 25px;
+    position: relative;
+    bottom: 250px;
+}
+.fecha{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+p{
+    text-indent: 20px;
+}
