@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Information</title>
     <link rel="shortcut icon" href="./assets/Logo-Mighty-ducks-01.ico"> 
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="title">Mighty Ducks Hockey League</h1>
-        <h3>Fall Schedule</h3>
-        <h3><u>*All games take place on Saturday</u></h3>
     </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="rules.html">Rules</a>
+        <a class="active" href="#">Information</a>
+        <a href="registration.html">Registration</a>
+    </nav>
     <main>
-           <div>
-               <table>
+        <section class="titulo">
+            <h1>Mighty Ducks Hockey League</h1>
+            <h3>Fall Schedule</h3>
+            <h3><u>*All games take place on Saturday</u></h3>
+        </section>
+        <div class="tabla">
+            <table>
                 <colgroup>
                     <col span="1" class="SEPTEMBER">
                     <col span="1" class="Teams">
@@ -74,7 +84,6 @@
                         <td>9:30 a.m</td>
                     </tr>
                     <tr>
-                        
                         <td>U2 and U6</td>
                         <td>Howard A Yeager</td>
                         <td>1:00 a.m.</td>
@@ -86,27 +95,31 @@
                         <td>9:30 a.m</td>
                     </tr>
                    </tbody>
-               </table>
-           </div>
-           <dl>
-               <dt><strong>Facility Type:</strong></dt>
-               <dd>Outdoor</dd>
-               <dt><strong>Additional Information:</strong></dt>
-               <dd>If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</dd>   
-           </dl>
-           <table>
-               <tr>
-                   <th><strong>Please direct all questions to: Michael Randall, League Coordinator</strong></th>
+            </table>
+        </div>
+        <div class="informacion">
+            <dl>
+                <dt>Facility Type:</dt>
+                <dd>Outdoor</dd>
+                <dt>Additional Information:</dt>
+                <dd>If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</dd>   
+            </dl>  
+            <table class="info">
+                <tr>
+                <th>Please direct all questions to: Michael Randall, League Coordinator</th>
                 </tr>
                 <tr>
-                    <th><strong>Phone:</strong>(630)690-8132</th>
+                    <th>Phone:(630)690-8132</th>
                 </tr>
                 <tr>
-                    <th><strong>Email:</strong>michael.randall@chihockey.org</th>
+                    <th>Email: michael.randall@chihockey.org</th>
                 </tr>
-
-           </table>  
+            </table>  
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.158625390275!2d-117.87940254982506!3d33.80821933790384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7758433275f%3A0xdaf9b994527b6082!2sAnaheim%20Ducks%20Hockey%20Club!5e0!3m2!1ses-419!2sar!4v1676593248187!5m2!1ses-419!2sar" width="600" height="450" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h4>Location</h4> 
+        </div>  
     </main>
-    
 </body>
 </html>
